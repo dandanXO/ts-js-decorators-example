@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "decorators example",
   "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dandanXO/ts-js-decorators-example.git"
+  },
   "scripts": {
     "start": "npm run build:live",
     "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
