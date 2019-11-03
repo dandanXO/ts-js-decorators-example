@@ -5,4 +5,6 @@ ts/js decorators for log example
 
 2. set `tsconfig.json`  for `"allowJs": true,` and `  "experimentalDecorators": true,`
 
-3. injoin
+3. injoin sample
+
+> ./node_modules/.bin/ts-node -- `<file name>`
