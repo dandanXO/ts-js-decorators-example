@@ -52,7 +52,10 @@ class Show implements IShow {
 const shoow = new Show();
 shoow.showMe("dandan");
 
-// output 这里手动加个缩进，这时候showMe方法已经经过多次包裹
+//out put
+
+//function
+//Show { showMe: [Function] } 'function () {\n                var args = [];\n                for (var _i = 0; _i < arguments.length; _i++) {\n                    args[_i] = arguments[_i];\n                }\n                console.log("logger2-begin : " + config.level);\n                _value.apply(target, args);\n
 // logger1-begin : info
 //   logger2-begin : error
 //     show me : ys

@@ -10,7 +10,7 @@ class Person {
   }
 }
 
-// 創建一個繼承自Person的匿名類
+// 創建一個繼承自Person的class
 // 直接返回並替換原有的構造函數
 function addName(constructor:any) {
   return <typeof Person> class extends constructor {
