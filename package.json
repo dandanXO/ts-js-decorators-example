@@ -1,0 +1,22 @@
+{
+  "name": "ts-js-decorators-example",
+  "version": "1.0.0",
+  "description": "decorators example",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
+    "build": "tsc index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dan",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.12.5",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.4.1"
+  }
+}
